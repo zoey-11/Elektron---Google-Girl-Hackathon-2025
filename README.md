@@ -37,8 +37,9 @@ This project demonstrates an AI-based solution to predict the combinational logi
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/zoey-11/Elektron---Google-Girl-Hackathon-2025.git
+   cd Elektron---Google-Girl-Hackathon-2025
+
    ```
 
 2. **Create and activate a virtual environment (recommended):**
