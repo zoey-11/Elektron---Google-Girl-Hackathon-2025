@@ -1,5 +1,5 @@
 # Elektron---Google-Girl-Hackathon-2025
-# Combinational Logic Depth Prediction Project
+### Combinational Logic Depth Prediction Project
 
 This project demonstrates an AI-based solution to predict the combinational logic depth (or delay as a proxy) of critical signals in RTL designs without running full synthesis. The solution integrates synthesis timing metrics, netlist structural features (fan-in), and mapping information to build a comprehensive dataset used for training a Random Forest regression model. The final model is evaluated via cross-validation and residual analysis, and deployment instructions are provided for real-time inference via a FastAPI REST API.
 
@@ -119,13 +119,8 @@ If you wish to deploy the model:
   - SDF and SDC Documentation
 - **Public Datasets:**  
   - MetRex dataset and relevant documentation
+  - https://github.com/TimingPredict/Dataset (i used the raw netlists from here itself)
 - **Machine Learning:**  
   - Random Forest Regression and cross-validation techniques
-- **Deployment:**  
+- **Deployment:** (optional) 
   - FastAPI and Uvicorn documentation
-
-This README provides a clear roadmap for setting up and running the project. If you encounter any issues, please refer to the notebook comments or contact me for further assistance.
-
----
-
-Feel free to adjust any sections to better fit your project’s specifics and environment.
