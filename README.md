@@ -1,7 +1,8 @@
 # Elektron---Google-Girl-Hackathon-2025
 ### Combinational Logic Depth Prediction Project
 
-This project demonstrates an AI-based solution to predict the combinational logic depth (or delay as a proxy) of critical signals in RTL designs without running full synthesis. The solution integrates synthesis timing metrics, netlist structural features (fan-in), and mapping information to build a comprehensive dataset used for training a Random Forest regression model. The final model is evaluated via cross-validation and residual analysis, and deployment instructions are provided for real-time inference via a FastAPI REST API.
+This project demonstrates an AI-based solution to predict the combinational logic depth (or delay as a proxy) of critical signals in RTL designs without running full synthesis. The solution integrates synthesis timing metrics, netlist structural features (fan-in), and mapping information to build a comprehensive dataset used for training a Random Forest regression model. 
+(WORK IN PROGRESS-The final model is evaluated via cross-validation and residual analysis, and deployment instructions are provided for real-time inference via a FastAPI REST API.)
 
 ## Repository Contents
 
@@ -13,6 +14,8 @@ This project demonstrates an AI-based solution to predict the combinational logi
   - Model training, evaluation, and cross-validation
   - Residual analysis
   - (Optional) Model deployment code snippet
+    
+-** to generate the dataset, I used the pre-built netlists from https://github.com/TimingPredict/Dataset where i extracted meaningful features. From here, I started building on my dataset from scratch, extracting information from the verilog files and the subsequent given files of the specific "xtea" itself. In addition from the extracted files, i mapped the values to get a precised aim to determining the desired target value as well.
 
 - **sdf_mapped_signals.csv**  
   Mapping file containing the original RTL signal names and their corresponding synthesized net names.
