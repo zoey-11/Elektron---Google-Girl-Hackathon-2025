@@ -15,7 +15,7 @@ This project demonstrates an AI-based solution to predict the combinational logi
   - Residual analysis
   - (Optional) Model deployment code snippet
     
--** to generate the dataset, I used the pre-built netlists from https://github.com/TimingPredict/Dataset where i extracted meaningful features. From here, I started building on my dataset from scratch, extracting information from the verilog files and the subsequent given files of the specific "xtea" itself. In addition from the extracted files, i mapped the values to get a precised aim to determining the desired target value as well.
+- ** to generate the dataset, I used the pre-built netlists from https://github.com/TimingPredict/Dataset where i extracted meaningful features. From here, I started building on my dataset from scratch, extracting information from the verilog files and the subsequent given files of the specific "xtea" itself. In addition from the extracted files, i mapped the values to get a precised aim to determining the desired target value as well.
 
 - **sdf_mapped_signals.csv**  
   Mapping file containing the original RTL signal names and their corresponding synthesized net names.
@@ -128,3 +128,7 @@ If you wish to deploy the model:
   - Random Forest Regression and cross-validation techniques
 - **Deployment:** (optional) 
   - FastAPI and Uvicorn documentation
+
+#Edit: 
+** in case the main.ipynb does not work, refer to notebook.ipynb to get a full history of the entire start to finish of the project
+
