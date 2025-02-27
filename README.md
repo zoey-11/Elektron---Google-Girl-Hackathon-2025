@@ -129,6 +129,6 @@ If you wish to deploy the model:
 - **Deployment:** (optional) 
   - FastAPI and Uvicorn documentation
 
-#Edit: 
+ # Edit: 
 ** in case the main.ipynb does not work, refer to notebook.ipynb to get a full history of the entire start to finish of the project
 
